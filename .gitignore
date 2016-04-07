@@ -42,3 +42,6 @@ us.stackdump
 # Ignore files with these extensions
 *.js
 *.map
+
+# Ignore output dir
+/built

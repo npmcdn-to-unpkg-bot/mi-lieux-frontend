@@ -38,3 +38,7 @@ us.stackdump
 
 # Ignore Typings dir
 /typings
+
+# Ignore files with these extensions
+*.js
+*.map

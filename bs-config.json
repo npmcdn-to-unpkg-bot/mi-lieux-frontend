@@ -1,4 +1,3 @@
-
 {
 	"injectChanges": false,
 	"server": { "baseDir": "built" } 

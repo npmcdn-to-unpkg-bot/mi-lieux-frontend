@@ -4,7 +4,7 @@
     <title>Mi-lieux - take heart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/milieux.css">
-    <!-- 1. Load libraries -->
+    <!-- Load libraries -->
 
     <!-- Dev versions are in node_modules -->
     <!-- IE required polyfills, in this exact order -->
@@ -27,24 +27,22 @@
     <script src="https://code.angularjs.org/2.0.0-beta.13/angular2-polyfills.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.13/Rx.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.13/angular2.dev.js"></script>
-
-    <!-- 2. Configure SystemJS -->
-    <script>
+     <script>
     
       System.config({
         packages: {        
-          app: {
+          js: {
             format: 'register',
             defaultExtension: 'js'
           }
         }
       });
-      System.import('main').then(null, console.error.bind(console));
+      System.import('js/milieux').then(null, console.error.bind(console));
 
     </script>
   </head>
 
-  <!-- 3. Display the application -->
+  <!-- Display the application -->
   <body>
     <milieux-root>Loading Mi-lieux...</milieux-root>
   </body>

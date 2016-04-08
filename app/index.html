@@ -3,7 +3,7 @@
   <head>
     <title>Mi-lieux - take heart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/milieux.css">
+    <link rel="stylesheet" href="styles/css/index.css">
     <!-- Load libraries -->
 
     <!-- Dev versions are in node_modules -->
@@ -31,13 +31,13 @@
     
       System.config({
         packages: {        
-          js: {
+          scripts: {
             format: 'register',
             defaultExtension: 'js'
           }
         }
       });
-      System.import('js/milieux').then(null, console.error.bind(console));
+      System.import('scripts/main').then(null, console.error.bind(console));
 
     </script>
   </head>

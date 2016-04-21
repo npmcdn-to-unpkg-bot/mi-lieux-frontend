@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 
 @Component({
-    selector: 'milieux-root',
-    template: '<h1>Mi-lieux App!</h1>'
+    selector: '[milieux-root]',
+    templateUrl: 'templates/pmHomePage.html'
 })
 export class AppRootComponent {}

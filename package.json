@@ -5,10 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && concurrently \"npm run lite\" \"npm run tsc:w\"  \"gulp watchit\" ",
+    "start": "tsc && concurrently \"npm run lite\" \"npm run gulpdefault\" \"npm run tsc:w\" \"gulp watchit\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
+    "gulpdefault": "gulp default",
     "typings": "typings",
     "postinstall": "typings install"
   },

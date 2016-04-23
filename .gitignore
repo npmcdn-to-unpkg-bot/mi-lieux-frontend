@@ -40,8 +40,11 @@ us.stackdump
 /typings
 
 # Ignore files with these extensions
-*.js
+/app/scripts/*.js
 *.map
 
 # Ignore output dir
 /built
+
+# Ignore generated CSS
+/app/styles/css

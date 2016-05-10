@@ -1,9 +1,10 @@
 import {Component} from 'angular2/core';
+import {BarChartComponent} from './barchart.component'
 
 @Component({
-    selector: '[milieux-root]',
+    selector: '[data-milieux-root]',
     templateUrl: 'templates/pmHomePage.html',
-    //directives
+    directives: [BarChartComponent]
 })
 export class AppRootComponent {
 
